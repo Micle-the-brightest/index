@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.fancybox.min.js"></script>
+
+    <link  href="jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Main.css">
+
+  <title></title>
+  </head>
+  <body>
+
+<center>
+<h1>Avengers</h1>
+ </div>
+    <a data-fancybox="gallery" href="img1.jpg" data-caption="Thor"><img src="img1.jpg"></a>
+    <a data-fancybox="gallery" href="img2.jpg" data-caption="Iron Man"><img src="img2.jpg"></a>
+    <a data-fancybox="gallery" href="img3.jpg" data-caption="HALK"><img src="img3.jpg"></a>
+    <a data-fancybox="gallery" href="img4.jpg" data-caption="Black Pantera"><img src="img4.jpg"></a>
+    <a data-fancybox="gallery" href="img5.jpg" data-caption="Thanos"><img src="img5.jpg"></a>
+    <a data-fancybox="gallery" href="img6.jpg" data-caption="Capitan America"><img src="img6.jpg"></a>
+    <a data-fancybox="gallery" href="img7.jpg" data-caption="Doc Strange"><img src="img7.jpg"></a>
+    <a data-fancybox="gallery" href="img8.jpg" data-caption=" Roudy"><img src="img8.jpg"></a>
+    <a data-fancybox="gallery" href="img9.jpg" data-caption="John Snow"><img src="img9.jpg"></a>
+
+</center>
+<script type="text/javascript">
+$('[data-fancybox]').fancybox({
+	loop: true,
+  buttons: [
+       "zoom",
+       "share",
+       "slideShow",
+       "fullScreen",
+       "download",
+       "thumbs",
+       "close"
+     ],
+     animationEffect: "zoom",
+     transitionEffect: "zoom-in-out"
+});
+
+
+</script>
+  </body>
+</html>
